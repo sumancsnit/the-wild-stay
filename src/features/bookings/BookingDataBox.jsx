@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 import styled from 'styled-components';
 import { format } from 'date-fns';
 
 import { box } from 'styles/styles';
 import { formatDistanceFromNow } from 'utils/helpers';
-import { isToday } from 'date-fns/esm';
+import { isToday } from 'date-fns';
 import { formatCurrency } from 'utils/helpers';
 import {
   HiOutlineChatBubbleBottomCenterText,
